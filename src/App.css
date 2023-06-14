@@ -56,8 +56,17 @@
 .fullForm .ynLabel {
   font-weight: 300;
 }
-.allButtons {
-  background-color:rgb(67, 100, 100);
+.goButtons {
+  background-color: rgb(17, 128, 26);
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid darkblue;
+  margin: 12px;
+}
+.moreButtons {
+  background-color:rgb(19, 60, 131);
   color: white;
   padding: 12px;
   font-weight: bold;

@@ -108,8 +108,8 @@ export function Form() {
             </label>
             <p><label>Comments:</label></p><textarea rows="3" cols="70"></textarea>
             <div className="buttonsDiv">
-                <button className="allButtons" type="submit">Submit</button>
-                <button className="allButtons" onClick={onClickAdd}>Add Another Room</button>
+                <button className="goButtons" type="submit">Submit</button>
+                <button className="moreButtons" onClick={onClickAdd}>Add Another Room</button>
             </div>
 
             {knownHospital &&
@@ -210,8 +210,8 @@ export function Form() {
                     </label>
                     <p><label>Comments:</label></p><textarea rows="3" cols="70"></textarea>
                     <div className="buttonsDiv">
-                        <button className="allButtons" type="submit">Submit</button>
-                        <button className="allButtons" onClick={onClickAdd}>Add Another Room</button>
+                        <button className="goButtons" type="submit">Submit</button>
+                        <button className="moreButtons" onClick={onClickAdd}>Add Another Room</button>
                     </div>
                 </div>
             }
