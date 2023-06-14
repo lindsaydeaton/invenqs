@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+.page {
+  display: flex;
+  justify-content: center;
+}
+.fullForm {
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.inputSpace {
+  margin-left: 8px;
+  margin-bottom: 6px;
+}
+.fullForm .ynLabel {
+  font-weight: 300;
+}
+.allButtons {
+  background-color:rgb(67, 100, 100);
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid darkblue;
+  margin: 12px;
+}
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
